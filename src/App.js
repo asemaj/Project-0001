@@ -10,6 +10,7 @@ import NavbarComponent from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import Payment from './components/Payment';
+import Chatbot from './components/Chatbot'
 
  function App() {
 
@@ -22,6 +23,8 @@ import Payment from './components/Payment';
           <Route path="success" element={<Success/>}/>
           <Route path="cancel" element={<Cancel/>}/>
           <Route path="payment" element={<Payment/>}/>
+          <Route path="chatbot" element={<Chatbot/>}/>
+
 
         </Routes>
       </BrowserRouter>

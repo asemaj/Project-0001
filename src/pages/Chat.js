@@ -3,6 +3,7 @@ import {subscriptionOption} from '../Subscriptions'
 import SubscriptionInfo from '../components/SubscriptionInfo'
 
 function ChatComponent(){
+    
     return(
         <>
             <h1 align="center" className="p-2">Welcome to the chat site!</h1>
